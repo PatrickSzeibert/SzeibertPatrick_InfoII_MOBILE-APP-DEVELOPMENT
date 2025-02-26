@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/darker_gray"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/toggleLightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Light" />
+
+    <Button
+        android:id="@+id/autoModeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Auto Mode"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/customColorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Color"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
