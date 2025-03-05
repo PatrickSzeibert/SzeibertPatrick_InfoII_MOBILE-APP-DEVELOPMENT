@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter 3: The Holocaust and War Crimes\n\nOne of the darkest aspects of World War II was the Holocaust, in which Nazi Germany systematically murdered six million Jews, along with millions of others, including Poles, Romani people, and political dissidents. Japanese forces also committed atrocities, such as the Nanjing Massacre. The war saw widespread suffering among civilians and soldiers alike."
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/img_soldat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tank"/>
+</LinearLayout>

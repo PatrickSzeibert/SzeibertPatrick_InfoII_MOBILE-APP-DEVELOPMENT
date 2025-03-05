@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter 4: The End of the War and Its Aftermath\n\nThe war ended in 1945 with the surrender of Germany in May and Japan in September, following the atomic bombings of Hiroshima and Nagasaki. The war's aftermath led to the establishment of the United Nations and the division of Europe, setting the stage for the Cold War. It also resulted in decolonization and a shift in global power dynamics."
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/img_soldat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/soldier_png"/>
+</LinearLayout>

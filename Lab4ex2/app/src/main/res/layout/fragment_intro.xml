@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World War II: A Global Conflict \n\nWorld War II (1939–1945) was the deadliest conflict in human history, involving more than 30 countries and resulting in millions of casualties. It was fought between the Axis Powers—led by Nazi Germany, Imperial Japan, and Fascist Italy—and the Allied Powers, including the United States, the Soviet Union, and the United Kingdom. The war reshaped global politics, economies, and societies, leading to the rise of superpowers and the Cold War.
+
+"
+        android:textSize="20sp"/>
+    <ImageView
+        android:id="@+id/img_soldat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/soldier_png"/>
+</LinearLayout>

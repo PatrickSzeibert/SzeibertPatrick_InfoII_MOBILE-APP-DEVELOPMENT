@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        android:text="Chapter 1: The Road to War\n\nThe origins of World War II can be traced back to the Treaty of Versailles (1919), which imposed heavy penalties on Germany after World War I. The rise of totalitarian regimes in Germany, Italy, and Japan fueled expansionist ambitions. Germany, under Adolf Hitler, invaded Poland on September 1, 1939, prompting Britain and France to declare war. Japan’s imperial ambitions in Asia also escalated tensions."
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/img_soldat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tank"/>
+</LinearLayout>

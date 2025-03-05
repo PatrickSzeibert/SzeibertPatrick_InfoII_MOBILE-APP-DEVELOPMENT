@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showToast(View view) {
-        Toast.makeText(this, "Button clicked!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Button clicked", Toast.LENGTH_SHORT).show();
     }
 
     public void incrementCounter(View view) {

@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 sendNotification("Good morning! Do you need more light?");
             }
         } else if (hour >= 18 && hour < 22) {
-            background.setBackgroundColor(Color.parseColor("#FFA500")); // Orange
+            background.setBackgroundColor(Color.parseColor("#FFA500"));
         } else {
             isLightOn = false;
             updateBackground();

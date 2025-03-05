@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter 2: The Major Battles and Turning Points\n\nThe war saw several crucial battles that shaped its course. The Battle of Britain (1940) prevented a German invasion of the UK. The invasion of the Soviet Union in 1941 led to the brutal Battle of Stalingrad, a turning point in the Eastern Front. Meanwhile, the attack on Pearl Harbor (December 7, 1941) drew the United States into the war. The D-Day invasion (June 6, 1944) marked the beginning of the liberation of Western Europe."
+        android:textSize="20sp"/>
+    <ImageView
+        android:id="@+id/img_soldat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/soldier_png"/>
+</LinearLayout>
