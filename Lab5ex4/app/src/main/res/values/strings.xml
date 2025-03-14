@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Labex4</string>
+    <string-array name="users_array">
+        <item>User 1</item>
+        <item>User 2</item>
+    </string-array>
+</resources>
